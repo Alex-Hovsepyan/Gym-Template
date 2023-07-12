@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM - About Us</title>
+    <link rel="stylesheet" href="assets/css/icon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class='header_container'>   
+            <img width='182px' height='41px' src="assets/images/logo.png" alt="" />
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li onclick="dropdown()"><a> Pages <i style="margin-left: 5px;" class="fa-solid fa-arrow-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="bmi.html">BMI calculate</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <i id="burger_menu" style="font-size: 25px; padding: 5px;" onclick="menuFunc(event)" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <div style="background-image: url(assets/images/breadcrumb-bg.jpg);" class="page_title">
+        <h1>About us</h1>
+        <p>Home > <span>About</span></p>
+    </div>
+    <div class="sidebar_close">
+        <i style="font-size: 30px;" id="cross" onclick="menuFunc(event)" class="fa-solid fa-xmark"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="bmi.html">BMI calculate</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <div class="reason">
+        <div class="title">
+            <span>why chose us</span>
+            <h2>PUSH YOUR LIMITS FORWARD</h2>
+        </div>
+        <div class="reason_container">
+            <div class="reason_content">
+                <span><i class="fa-sharp fa-solid fa-motorcycle"></i></span>
+                <h3>Modern equipment</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+            </div>
+            <div class="reason_content">
+                <span><i class="fa-solid fa-glass-water"></i></span>
+                <h3>Healthy nutrition plan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+            </div>
+            <div class="reason_content">
+                <span><i class="fa-solid fa-dumbbell"></i></span>
+                <h3>Proffesponal training plan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+            </div>
+            <div class="reason_content">
+                <span><i class="fa-solid fa-heart-pulse"></i></span>
+                <h3>Unique to your needs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div style="background-image: url(assets/images/about-us.jpg);" class="video">
+            <a href="https://www.youtube.com/watch?v=4C-gxOE0j7s"><i class="fa-solid fa-play"></i></a>
+        </div>
+        <div class="about_info">
+            <div class="title">
+                <span>ABOUT US</span>
+                <h2>WHAT WE HAVE DONE</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. aliquip ex ea commodo consequat sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <div class="fill">
+                <div>
+                    <h5>Body building</h5>
+                    <span>80%</span>
+                </div>
+                <div style="background: linear-gradient(to right, #FFFFFF 80%, #2D2D2D 20%);" class="line"></div>
+            </div>
+            <div class="fill">
+                <div>
+                    <h5>Training</h5>
+                    <span>85%</span>
+                </div>
+                <div style="background: linear-gradient(to right, #FFFFFF 85%, #2D2D2D 15%);" class="line"></div>
+            </div>
+            <div class="fill">
+                <div>
+                    <h5>Fitness</h5>
+                    <span>75%</span>
+                </div>
+                <div style="background: linear-gradient(to right, #FFFFFF 75%, #2D2D2D 25%);" class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="home_trainers">
+        <div class="home_trainer_container">
+            <div class="trainer_header">
+                <div class="title">
+                    <span>our team</span>
+                    <h2>TRAIN WITH EXPERTS</h2>
+                </div>
+                <a href="contact.html"><button>Appointment</button></a>
+            </div>
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div style="background: url(assets/images/team-1.jpg) center no-repeat;" class="swiper-slide"></div>
+                  <div style="background: url(assets/images/team-2.jpg) center no-repeat;" class="swiper-slide"></div>
+                  <div style="background: url(assets/images/team-3.jpg) center no-repeat;" class="swiper-slide"></div>
+                  <div style="background: url(assets/images/team-4.jpg) center no-repeat;" class="swiper-slide"></div>
+                  <div style="background: url(assets/images/team-5.jpg) center no-repeat;" class="swiper-slide"></div>
+                  <div style="background: url(assets/images/team-6.jpg) center no-repeat;" class="swiper-slide"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </div>
+    <div class="appointment">
+        <div class="appointment_container">
+            <h2>REGISTRATION NOW TO GET MORE DEALS</h2>
+            <h5>WHERE HEALTH, BEAUTY AND FITNESS MEET.
+            </h5>
+            <a href="contact.html"><button>Appointment</button></a>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="title">
+            <span>Testimonial</span>
+            <h2>Our client say</h2>
+        </div>
+        <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/images/testimonial-1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, earum? Illo in optio eveniet quos, fuga eum repellendus fugit dignissimos earum perspiciatis dolore eius veniam a mollitia non delectus illum nostrum.</p>
+                    <h3>Marshmello Gomez</h3>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/testimonial-2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, earum? Illo in optio eveniet quos, fuga eum repellendus fugit dignissimos earum perspiciatis dolore eius veniam a mollitia non delectus illum nostrum.</p>
+                    <h3>Marshmello Gomez</h3>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info_container">
+            <div class="info_content">
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <p>333 Middle Winchendon Rd, Rindge, <br> NH 03461</p>
+            </div>
+            <div class="info_content">
+                <span><i class="fa-solid fa-phone"></i></i></span>
+                <p>125-711-811  125-668-886</p>
+            </div>
+            <div class="info_content">
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <p>Support.gymcenter@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_content">
+                <img src="assets/images/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://mail.google.com/"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer_content">
+                <h2>Useful links</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Blog</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <h2>Suport</h2>
+                <ul>
+                    <li><a href="contact.html">Help</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">Subscribe</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <h2>Tips & Guides</h2>
+                <div>
+                    <p>Physical fitness may help prevent depression, anxiety</p>
+                    <p>Fitness: The best exercise to lose belly fat and tone up...</p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright ©2027 All rights reserved | This template is made by Alex</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
