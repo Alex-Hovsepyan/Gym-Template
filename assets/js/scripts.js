@@ -94,15 +94,20 @@ function dropdown() {
 
 var navLinks = document.querySelectorAll('.list a');
 var nav_menu_links = document.querySelectorAll('.sidebar_close ul a')
+var dropdown_links = document.querySelectorAll('.dropdown a')
 
 for (var i = 0; i < navLinks.length; i++) {
   var link = navLinks[i];
   var menu_links = nav_menu_links[i]
+  var dropdown_link = dropdown_links[i]
   if (link.href === window.location.href) {
       link.classList.add('page_link')
   }
   
   if (menu_links.href === window.location.href) {
       menu_links.classList.add('page_link')
+  }
+  if (dropdown_link.href === window.location.href) {
+    dropdown_link.classList.add('page_link')
   }
 } 
